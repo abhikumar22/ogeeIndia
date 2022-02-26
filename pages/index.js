@@ -1,11 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import HomePageTemplate  from "../src/templates/HomePageTemplate";
 
-export default function Home() {
+export default function AppEntry() {
   return (
-    <div className={styles.container}>
-      Welcome to Ogee India
+    <div>
+      <HomePageTemplate />
     </div>
-  )
-}
+  );
+};
